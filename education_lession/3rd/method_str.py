@@ -19,7 +19,7 @@ test_join = ", ".join(color)
 
 replace_text = "Hello World!"
 after_replace = replace_text.replace("World", "Python")
-print(after_replace)
+# print(after_replace)
 
 
 json = {
@@ -27,6 +27,11 @@ json = {
     "age": 30,
     "city": "New York   "
 }
-json_str = str(json)
-json_str_replace = json_str.replace(" ", "").replace(":", ": ").replace("{", "").replace("}", "").replace("'", "").replace(",", "\n")
-print(f'{len(json_str_replace) = }')w
+# json_str = str(json)
+# json_str_replace = json_str.replace(" ", "").replace(":", ": ").replace("{", "").replace("}", "").replace("'", "").replace(",", "\n")
+# print(json_str_replace)
+
+
+for char in range(0, 100):
+        print(char)
+print(json)
